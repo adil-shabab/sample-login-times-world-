@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+.login_section form{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 10px;
+}
+.login_section .box{
+    max-width: 450px;
+    margin: auto;
+    font-family: math;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_section .box h2.head{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.login_section .box .input_div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.login_section .box .input_div input{
+    width: 100%;
+    border: 1px solid rgb(196, 196, 196);
+    height: 48px;
+    background: white;
+    outline: none;
+    padding: 0px 14px;
+    border-radius: 5px;
+}
+.login_section .box .input_div label{
+    position: absolute;
+    background: white;
+    width: fit-content;
+    padding: 0px 10px;
+    left: 25px;
+    font-size: 13px;
+    top: -10px;
+}
+.login_section .box button{
+    padding: 8px 36px;
+    border: none;
+    outline: none;
+    background: #2929a7;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.signup_section{
+    font-family: math;
+    max-width: 450px;
+    height: 95vh;
+    margin: 2vh auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.signup_section form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.signup_section .register_box h2.head{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.signup_section .register_box .input_div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.signup_section .register_box .input_div input,
+.signup_section .register_box .input_div select{
+    width: 100%;
+    border: 1px solid rgb(196, 196, 196);
+    height: 48px;
+    background: white;
+    outline: none;
+    padding: 0px 14px;
+    border-radius: 5px;
+}
+.signup_section .register_box .input_div label{
+    position: absolute;
+    background: white;
+    width: fit-content;
+    padding: 0px 10px;
+    left: 25px;
+    font-size: 13px;
+    top: -10px;
+}
+.signup_section .register_box button{
+    padding: 8px 36px;
+    border: none;
+    outline: none;
+    background: #2929a7;
+    color: white;
+    border-radius: 5px;
+}

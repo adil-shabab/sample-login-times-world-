@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>Login</title>
+{% endblock title %}
+
+
+{% block content %}
+  <div class="login_section">
+    <div class="container">
+        <div class="box">
+            <form action="" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <h2 class="head">Login</h2>
+                {% for field in form %}
+                <div class="input_div">
+                    {{field}}
+                    <label>{{field.label}}</label>
+                </div>
+                {% endfor %}
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+  </div>
+{% endblock content %}
