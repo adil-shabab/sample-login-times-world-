@@ -43,4 +43,8 @@ class CustomUsers(AbstractBaseUser):
     def __str__(self):
         return self.email
 
-
+    def has_module_perms(self, app_label):
+            """
+            Returns True if the user has any permissions in the given app label.
+            """
+            return self.is_staff

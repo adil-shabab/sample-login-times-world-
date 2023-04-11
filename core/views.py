@@ -48,12 +48,12 @@ def user_login(request):
 def dashboard(request):
     user = request.user
     if user.role == 'student':
-        return render(request, 'dashboard.html')
+        return render(request, 'student.html')
     elif user.role == 'staff':
-        return render(request, 'dashboard.html')
+        return render(request, 'staff.html')
     elif user.role == 'admin':
-        return render(request, 'dashboard.html')
+        return render(request, 'admin.html')
     elif user.role == 'editor':
-        return render(request, 'dashboard.html')
+        return render(request, 'editor.html')
     else:
         return redirect('login')
