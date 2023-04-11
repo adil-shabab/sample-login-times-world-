@@ -30,5 +30,3 @@ python manage.py migrate
 python manage.py runserver
 
 
-
-# sample-login-times-world-
