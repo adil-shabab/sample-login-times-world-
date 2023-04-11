@@ -12,12 +12,16 @@
             <form action="" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 <h2 class="head">Login</h2>
-                {% for field in form %}
+                
                 <div class="input_div">
-                    {{field}}
-                    <label>{{field.label}}</label>
+                    <label for="">Email: </label>
+                    <input type="email" name="email">
                 </div>
-                {% endfor %}
+                <div class="input_div">
+                    <label for="">Passowrd: </label>
+                    <input type="password" name="password">
+                </div>
+                
                 <button type="submit">Submit</button>
             </form>
         </div>
